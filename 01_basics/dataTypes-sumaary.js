@@ -39,3 +39,35 @@ const bigNumber=456321489n
 
 //isme table hai kya kya datatypes kya return karega
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//*******************************************Memories*********************************************** */
+/*
+memories are basically of two types-
+1)stack(jitna bhii primitive datatypes hota hai wo satck me hi jata hai)-isme aise hota hai ki jo bhii reference 
+milta hai wo original nhii hota hai wo copy hota hai*/
+
+// let myname="Aryan"
+// let anothername=myname
+
+//  anothername="Sinha"
+ //console.log(myname);
+//console.log(anothername);
+
+
+
+//2)Heap(jitna bhii non primitive types datatypes hota hai wo heap me hi jata hai)-isme aise hota hai ki jo bhii reference milta hai wo 
+//original  hota hai 
+
+// let userOne={
+//     email:"sinha@gmail.com",
+//     upi:"world@gmail.com"
+// }
+// let userTwo=userOne
+// userTwo.email="Aryan@gmail.com"
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+//matlab yahi hota hai ki jo bhii stack me hota hai agar uska reference deke bhii change kare tho wo change hoga 
+// lekin uska originala form bhii present hoga jabki heap me jabhi change karenge tab original wla abhii change ho jayega
+
