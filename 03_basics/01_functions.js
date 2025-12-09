@@ -34,8 +34,51 @@ function loginUserMessage(Username="sam"){  //agar hamlog yahi username dede rah
     }
     return `${Username} just logged in`
 }
-console.log(loginUserMessage());
+//console.log(loginUserMessage());
 //console.log(loginUserMessage("Aryan"));
+
+function CalculateCarPrice(...num1){  //(...) iska matlab rest operator hota hai kisi ke bhii aage lag jaye tab uska matlab uske aandar jitna bhii no.hoga sabko read karega
+    return num1
+}
+console.log(CalculateCarPrice(200,300,400,5000));
+
+
+function CalculateCarPrice(val1,val2,...num1){ 
+    return num1
+}
+//console.log(CalculateCarPrice(200,300,400,5000));
+
+//jab koi bhii object ko function me read karwana ho
+
+const User={
+    Username:"Aryan SInha",
+    price:199
+}
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.Username} and the price is ${anyobject.price}`); 
+}
+
+//handleObject(User)
+//handleObject({
+//     Username:"Aryan Sinha",    
+//     price:500       //aise direct bhii object ko likh sakte hai
+// })
+
+//jab Array ko function me read karwana ho tab
+const myNewArray=[100,200,300,400]
+
+function returnSecondvalue(getArray){
+    return getArray[3]
+}
+//console.log(returnSecondvalue(myNewArray));
+console.log(returnSecondvalue([100,200,300,400])); //jab direct read karwana ho tab
+
+
+       
+
+
+    
+
 
 
 
