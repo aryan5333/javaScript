@@ -69,13 +69,3 @@ console.log(courseInstructor);
 //     "courseInstructor":"Aryan"
 // }
 
-
-
-
-
-
-
-   
-
-
-

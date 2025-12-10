@@ -44,10 +44,9 @@ if(true){
         //console.log(username+ website);
         
     }
-
 }
 
-//**************************************(hoisting basic)************************************ */
+//******************************************(hoisting basic)******************************************** */
 // console.log(oneadd(5));
 
 // function oneadd(num){
@@ -55,17 +54,10 @@ if(true){
 // }
 
 
-//console.log(oneadd(5))
-const addTwo=function (num){
-    return num+1
-}
+// //console.log(oneadd(5))
+// const addTwo=function (num){
+//     return num+1
+// }
 
 //hoisting matlab yahi hota hai ki kon sa function kiss tarah likha hai jaise ki isme 1st wala console kahi
 //  bhii kara rahe the tho chal raha tha par 2nd me nhii cahala kyunki waha store karna tha 
-
-
-
-
-
-
-
